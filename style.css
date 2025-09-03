@@ -1,0 +1,70 @@
+🟩 2. Student Digital Portfolio in CSS Only
+
+This uses HTML + CSS styling, but the focus is on CSS design.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f4f8;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #4CAF50;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+    }
+    section {
+      background: white;
+      margin: 20px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #4CAF50;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #333;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Digital Portfolio</h1>
+    <p>Created with CSS design</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>I love coding and creating web projects.</p>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <ul>
+      <li>Portfolio Website</li>
+      <li>Weather App</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <p>HTML, CSS, React</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Student Portfolio</p>
+  </footer>
+</body>
+</html>
